@@ -4,15 +4,16 @@
   font-family: system-ui;
 }
 .header {
-  min-width: 90vw;
+  min-width: 100vw;
   top: 0;
+  position: fixed;
   z-index: 999;
   height: 30px;
   display: flex;
   padding: 20px;
   align-items: center;
   background-color: limegreen;
-  color:white;
+  color: white;
 }
 .heading {
   width: 50%;
@@ -25,13 +26,55 @@
 }
 .nav_links a {
   text-decoration: none;
-  border-bottom : 2px solid transparent;
+  border-bottom: 2px solid transparent;
   transition: all 0.5s;
 }
 a {
   color: inherit;
 }
-.nav_links a:hover{
+.nav_links a:hover {
+  border-bottom: 2px solid black;
+}
 
-  border-bottom:2px solid black;
+main {
+  padding-top: 70px;
+  background-image: url("./hero.png");
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: overlay;
+  min-height: 95vh;
+  min-width: 90vw;
+}
+.landing_page{
+display:flex;
+height:100%;
+width:100%;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+gap:2rem;
+}
+.lead{
+font-size:5rem;
+}
+.landing_page p{
+
+  font-size:1.4rem;
+}
+.landing_page button{
+padding:15px;
+width:130px;
+height:60px;
+text-align:center;
+color:white;
+background-color:limegreen;
+border:0;
+font-weight:bold;
+border-radius:10px;
+cursor:pointer;
+}
+.landing_page button:hover{
+background-color:white;
+color:limegreen;
+border:2px solid;
+
 }

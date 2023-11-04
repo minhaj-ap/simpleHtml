@@ -192,3 +192,7 @@ form button{
 form{
   padding-bottom:2rem;
 }
+html{
+  scroll-behavior:smooth;
+  scroll-padding:2rem;
+}

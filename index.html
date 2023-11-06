@@ -115,35 +115,30 @@
     </section>
     <hr />
     <div class="contact" id="link_3">
-      <form action="">
-        <h5>CONTACT US</h5>
-        <div>
-          <div class="name">
-            <label for="full_name"
-              >Full Name</label
-            >
-            <input type="text" required />
-          </div>
-          <div class="name">
-            <label for="last_name"
-              >Last Name</label
-            >
-            <input type="text" required />
-          </div>
+        <h5>CONTACT US</h5><form>
+
+    <div class="name_cont">
+        <div class="fname">
+            <label for="fname">FULL NAME</label>
+            <input type="text" required>
         </div>
-        <div class="mess">
-          <label for="email">Email</label>
-          <input type="email" required />
-          <label for="message">Message</label>
-          <textarea
-            rows="4"
-            cols="50"
-            required
-          ></textarea>
+        <div class="lname">
+            <label for="lname">LAST NAME</label>
+            <input type="text" required>
         </div>
 
-        <button type="submit">SUBMIT</button>
-      </form>
+    </div>
+    <div class="message">
+            <label for="email">email</label>
+            <input type="email" required>
+            <label for="message">message</label>
+            <textarea name="message" required></textarea>
+    </div>
+    <div class="fbtn">
+        <button type="submit" id="a">SUBMIT</button>
+        <button type="reset" id="b">CLEAR</button>
+    </div>
+</form>
     </div>
   </body>
 </html>
